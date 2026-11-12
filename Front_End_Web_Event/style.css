@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  font-family: arial;
+}
+.navbar ul {
+  list-style: none;
+  background: #bd1ebd;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  font-size: 14px;
+}
+.navbar a:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+.centered-img {
+  display: block;
+  margin: 80px auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.slideshow-wrapper {
+  width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background: #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.header {
+  background-image: url('/images/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.party-text {
+  font-size: 90px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 1;
+  text-align: center;
+}
+
+.about-us {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  gap: 20px;
+}
+
+.side-img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.image-info-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.info-card {
+  max-width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.info-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-card p {
+  font-size: 1rem;
+  color: #666;
+}
+.offer-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.offer-header h2 {
+  font-size: 32px;
+  color: #222;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+main.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+main.page p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+iframe {
+  width: 80%;
+  max-width: 600px;
+  height: 250px;
+  border: none;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+.intro-text {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 0 20px;
+  color: #444;
+}
+.video-wrapper {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.video-wrapper video {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.tickets-participants {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.tickets-participants ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.tickets-participants li {
+  font-size: 18px;
+  margin: 10px 0;
+}

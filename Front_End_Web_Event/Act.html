@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   
+ <link rel="stylesheet" href="Act.css">
+</head>
+<body>
+  
+ <div class="navbar">
+<ul>
+    <li><a href="Home.html" >Home</a></l>
+        <li><a href="Act.html" >Event</a></li>
+            <li><a href="Parti.html" >Participants</a></li>
+                <li><a href="Regidter.html" >About Us</a></li>
+
+</ul>
+<h1>City Vibes Festival</h1>
+<header class="header">
+  <div class="header-content">
+    <h1 class="party-text">LETS PARTY</h1>
+  </div>     
+
+ <article id="container">
+
+<nav class="nav"></nav>
+
+    <main class="main">
+      <h2>Location</h2>
+  <p><strong>Date:</strong> Saturday, October 18, 2025</p>
+  <p><strong>Time:</strong> 12:00 PM – 11:00 PM</p>
+  <p><strong>Venue:</strong> Urban Square Park, Johannesburg CBD</p>
+
+        <iframe src="https://maps.google.com/maps?q=johannesburg%20CBD&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+
+      </main>
+<h3>Tickets</h3>
+
+<aside class="Early">
+  <p><b>Early Birds</b></p>
+  <p>Limited Tickets!</p>
+<button><a href="https://computicket.com/event/list"><samp>R350</samp></a></button>
+
+</aside>
+<aside class="General">
+<p><b>General</b></p>
+<p>Get before event starts!</p>
+<button><a href="https://computicket.com/event/list"><samp>R420</samp></a></button>
+</aside>
+
+</aside>
+<aside class="VIP">
+<p><b>VIP</b></p>
+<p>Exclusive</p>
+<button><a href="https://computicket.com/event/list"><samp>R800</samp></a></button>
+</aside>
+
+<h4>ACTIVITIES</h4>
+
+<figure class="Perf1">
+<img src="PbO.jpg" alt="Photo Booth" width="255px">
+<br><br>
+<span>Capture the memoryies in our Photo Booths!</span>
+</figure>
+
+<figure class="Perf2">
+<img src="Market.jpg" alt="Market" width="255px" height="250px">
+<br><br>
+<span>Comp some of your favourite asrtists clothing!</span>
+</figure>
+
+<figure class="Perf3">
+<img src="Punds.jpg" alt="loatinover pounds" width="255px" height="250">
+<br><br>
+<span>Get a chance to meet our guest performers!</span>
+</figure>
+
+<figure class="Perf4">
+<img src="Concert.jpg" alt="Concert" width="255px" height="250">
+<br><br>
+<span>Be part of the concert to get the full experience</span>
+</figure>
+
+
+    <div class="wrapper">
+        
+        <div class="timer">
+            <div class="sub_timer">
+                <h1 id="day" class="digit">00</h1>
+                <p class="digit_name">Days</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="hour" class="digit">00</h1>
+                <p class="digit_name">Hours</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="min" class="digit">00</h1>
+                <p class="digit_name">Minutes</p>
+            </div>
+            <div class="sub_timer">
+                <h1 id="sec" class="digit">00</h1>
+                <p class="digit_name">Seconds</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- javascript  -->
+    <script>
+          var target_mili_sec = new Date("Oct 18, 2025 11:30:0").getTime();
+          function timer() {
+              var now_mili_sec = new Date().getTime();
+              var remaining_sec = Math.floor( (target_mili_sec - now_mili_sec) / 1000 );
+
+              var day = Math.floor(remaining_sec / (3600 * 24));
+              var hour = Math.floor((remaining_sec % (3600 * 24)) / 3600);
+              var min = Math.floor((remaining_sec % 3600) / 60);
+              var sec = Math.floor(remaining_sec % 60);
+
+              document.querySelector("#day").innerHTML = day;
+              document.querySelector("#hour").innerHTML = hour;
+              document.querySelector("#min").innerHTML = min;
+              document.querySelector("#sec").innerHTML = sec;
+          }
+
+          setInterval(timer, 1000); //1000 it means 1 sec
+          
+    </script>
+
+
+<footer>
+    
+  <p>&copy; 2025 City Vibes Festival. All rights reserved.</p>
+</footer>  
+
+
+
+</body>
+</html>
